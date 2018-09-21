@@ -2,6 +2,9 @@
 hybird混合app
 
 # Cordova环境配置
+详细配置教程 https://blog.csdn.net/zsion409540923/article/details/78811054#%E7%AC%AC%E4%BA%94%E6%AD%A5%E5%AE%89%E8%A3%85gradle  
+
+安装问题解决：
 见 https://blog.csdn.net/kongxx/article/details/78156490?utm_source=tuicool&utm_medium=referral  
 1 问题1 Failed to find 'ANDROID_HOME' environment variable 没有配置好ANDROID环境变量  
 解决办法  

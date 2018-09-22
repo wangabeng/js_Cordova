@@ -44,3 +44,15 @@ https://www.jianshu.com/p/642c9be55446?utm_campaign=maleskine&utm_content=note&u
 
 # Cordova - 打包Vue项目的详细步骤（将Vue.js项目编译成App）
 http://www.hangge.com/blog/cache/detail_2101.html
+
+# Cordova多页面应用 可以a标签链接跳转配置
+见 https://stackoverflow.com/questions/36036475/cordova-6-0-ios-load-external-url-in-the-webview  
+删除这两行  
+```
+<allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+``
+添加这一行  
+```
+<allow-navigation href="*" />
+```

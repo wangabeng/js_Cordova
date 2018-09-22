@@ -28,3 +28,6 @@ hybird混合app
 
 2 问题2 Cordova及相关插件版本问题 版本不能太高 也不要太低  
 3 下载模拟器及相关操作 Genymotion 见  https://www.cnblogs.com/rainboy2010/p/6387770.html  
+
+# cordova 插件大全
+https://www.jianshu.com/p/642c9be55446?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation

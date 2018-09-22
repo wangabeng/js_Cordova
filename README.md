@@ -26,4 +26,5 @@ hybird混合app
 7、点击运行——输入cmd——回车——输入adb——回车，如果出现一堆英文，如下图所示，即表示配置成功，在输入Android，启动Android SDK Manager。
 ```
 
-2 问题2 提示 Could not find an installed version of Gradle either in Android Studio  
+2 问题2 Cordova及相关插件版本问题 版本不能太高 也不要太低  
+3 下载模拟器及相关操作 Genymotion 见  https://www.cnblogs.com/rainboy2010/p/6387770.html  

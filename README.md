@@ -51,13 +51,16 @@ https://www.jianshu.com/p/642c9be55446?utm_campaign=maleskine&utm_content=note&u
 http://www.hangge.com/blog/cache/detail_2101.html
 
 # Cordova多页面应用 可以a标签链接跳转配置
-见 https://stackoverflow.com/questions/36036475/cordova-6-0-ios-load-external-url-in-the-webview  
-删除这两行  
+见 https://stackoverflow.com/questions/36036475/cordova-6-0-ios-load-external-url-in-the-webview
+
+删除这两行  添加一行   
 ```
-<allow-intent href="http://*/*" />
-<allow-intent href="https://*/*" />
-``
-添加这一行  
+<allow-intent href="http://*/*" /> // 删除
+<allow-intent href="https://*/*" />  // 删除 
+```
+添加这一行
 ```
 <allow-navigation href="*" />
 ```
+
+# Cordova Ajax请求跨域问题整理

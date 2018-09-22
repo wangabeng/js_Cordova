@@ -36,8 +36,11 @@ https://www.jianshu.com/p/642c9be55446?utm_campaign=maleskine&utm_content=note&u
 
 -- 遇到的坑 --------------------------------------------------------------------
 
-# 坑1 打包后js无效
+# 打包后js无效 （坑）
 比如绑定按钮点击事件无效  
 原因：
 1 html中元素放在div class =“app"元素内  
 2 js事件绑定在index.js中的onDeviceReady中绑定。
+
+# Cordova - 打包Vue项目的详细步骤（将Vue.js项目编译成App）
+http://www.hangge.com/blog/cache/detail_2101.html

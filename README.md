@@ -1,6 +1,3 @@
-# js_Cordova
-hybird混合app
-
 -- 环境配置 --------------------------------------------------------------------
 
 # Cordova环境配置
@@ -28,7 +25,7 @@ hybird混合app
 7、点击运行——输入cmd——回车——输入adb——回车，如果出现一堆英文，如下图所示，即表示配置成功，在输入Android，启动Android SDK Manager。
 ```
 
-2 问题2 Cordova及相关插件版本问题 版本不能太高 也不要太低  
+2 问题2 Cordova及相关插件版本问题 注意版本兼容 比如 Cordova 几点几只能兼容androd几点几 见官网
 3 下载模拟器及相关操作 Genymotion 见  https://www.cnblogs.com/rainboy2010/p/6387770.html  
 4 如果提示 需要安装  
 ```

@@ -64,3 +64,4 @@ http://www.hangge.com/blog/cache/detail_2101.html
 ```
 
 # Cordova Ajax请求跨域问题整理
+https://blog.csdn.net/u011127019/article/details/55505123 (未经测试)  

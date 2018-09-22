@@ -1,6 +1,8 @@
 # js_Cordova
 hybird混合app
 
+-- 环境配置 --------------------------------------------------------------------
+
 # Cordova环境配置
 详细配置教程 https://blog.csdn.net/zsion409540923/article/details/78811054#%E7%AC%AC%E4%BA%94%E6%AD%A5%E5%AE%89%E8%A3%85gradle  
 
@@ -31,3 +33,11 @@ hybird混合app
 
 # cordova 插件大全
 https://www.jianshu.com/p/642c9be55446?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation
+
+-- 遇到的坑 --------------------------------------------------------------------
+
+# 坑1 打包后js无效
+比如绑定按钮点击事件无效  
+原因：
+1 html中元素放在div class =“app"元素内  
+2 js事件绑定在index.js中的onDeviceReady中绑定。
